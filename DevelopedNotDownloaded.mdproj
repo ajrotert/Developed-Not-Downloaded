@@ -24,7 +24,6 @@
     <None Include="SpeedometerPlusMap.html" />
     <None Include="TrapshootingScorecard.html" />
     <None Include="Documents\DevelopedNotDownloadedBusinessPlan.pdf" />
-    <None Include="Images\.DS_Store" />
     <None Include="Images\AppLogos\Calc.png" />
     <None Include="Images\AppLogos\HC.png" />
     <None Include="Images\AppLogos\Lift.png" />
@@ -66,10 +65,18 @@
     <None Include="Images\TS\Two.png" />
     <None Include="Styles\defaults.css" />
     <None Include="Styles\normalize.css" />
+    <None Include="Projects.html" />
+    <None Include="Images\AppLogos\OTH.png" />
+    <None Include="Images\Projects\Tsharp.png" />
+    <None Include="Images\Projects\Minesweeper.png" />
+    <None Include="Images\Projects\GripFinder2.png" />
+    <None Include="Images\Projects\Website2.png" />
+    <None Include="Images\Projects\Golf2.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Images\" />
     <Folder Include="Styles\" />
+    <Folder Include="Images\Projects\" />
   </ItemGroup>
 </Project>

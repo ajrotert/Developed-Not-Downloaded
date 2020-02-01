@@ -230,3 +230,10 @@ div.plan h2{
 div.plan p{
     font-size: 125%;
 }
+iframe.size{
+    width: 55%;
+    height: 30em;
+}
+h3.margin{
+    margin-bottom: 2em;
+}
