@@ -206,9 +206,27 @@ li.sidenav a{
 }
 li.sidenav img{
     text-decoration: none;
-    height: 200px;
+    width: 100%;
 }
 li.sidenav a:hover {
     background-color: #0066ff;
     color: white;
+}
+div.plan{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div.plan h1 {
+    color: #0066ff;
+    font-size: 225%;
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+div.plan h2{
+    padding-bottom: .1em;
+    padding-top: .1em;
+    font-size: 150%;
+}
+div.plan p{
+    font-size: 125%;
 }
