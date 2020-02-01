@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{9C29EE88-7391-483D-809C-8C046A160BE0}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="AboutMe.html" />
+    <None Include="Android.html" />
+    <None Include="Blog.html" />
+    <None Include="BusinessPlan.html" />
+    <None Include="ComputerScienceCalculator.html" />
+    <None Include="HolidayClicker.html" />
+    <None Include="index.html" />
+    <None Include="iOS.html" />
+    <None Include="LiftCoefficientCalculator.html" />
+    <None Include="Other.html" />
+    <None Include="PutterFitter.html" />
+    <None Include="SpeedometerPlusMap.html" />
+    <None Include="TrapshootingScorecard.html" />
+    <None Include="Documents\DevelopedNotDownloadedBusinessPlan.pdf" />
+    <None Include="Images\.DS_Store" />
+    <None Include="Images\AppLogos\Calc.png" />
+    <None Include="Images\AppLogos\HC.png" />
+    <None Include="Images\AppLogos\Lift.png" />
+    <None Include="Images\AppLogos\Putter.png" />
+    <None Include="Images\AppLogos\Speed.png" />
+    <None Include="Images\AppLogos\Trap.png" />
+    <None Include="Images\ARLogo.png" />
+    <None Include="Images\CS\Five.png" />
+    <None Include="Images\CS\Four.png" />
+    <None Include="Images\CS\One.png" />
+    <None Include="Images\CS\Three.png" />
+    <None Include="Images\CS\Two.png" />
+    <None Include="Images\DevelopedNotDownloaded.png" />
+    <None Include="Images\DevLogo.ico" />
+    <None Include="Images\DNDBKGTemplate2.png" />
+    <None Include="Images\Future.png" />
+    <None Include="Images\HS\Four.png" />
+    <None Include="Images\HS\One.png" />
+    <None Include="Images\HS\Three.png" />
+    <None Include="Images\HS\Two.png" />
+    <None Include="Images\LaptopFW.png" />
+    <None Include="Images\LS\One.png" />
+    <None Include="Images\LS\Three.png" />
+    <None Include="Images\LS\Two.png" />
+    <None Include="Images\Projects.png" />
+    <None Include="Images\PS\One.png" />
+    <None Include="Images\PS\Three.png" />
+    <None Include="Images\PS\Two.png" />
+    <None Include="Images\Self.png" />
+    <None Include="Images\SS\Four.png" />
+    <None Include="Images\SS\One.png" />
+    <None Include="Images\SS\Three.png" />
+    <None Include="Images\SS\Two.png" />
+    <None Include="Images\Support.png" />
+    <None Include="Images\TS\Five.png" />
+    <None Include="Images\TS\Four.png" />
+    <None Include="Images\TS\One.png" />
+    <None Include="Images\TS\Three.png" />
+    <None Include="Images\TS\Two.png" />
+    <None Include="Styles\defaults.css" />
+    <None Include="Styles\normalize.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Documents\" />
+    <Folder Include="Images\" />
+    <Folder Include="Styles\" />
+  </ItemGroup>
+</Project>
