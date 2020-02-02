@@ -78,11 +78,13 @@
     <None Include="Images\weblogo180.png" />
     <None Include="Images\weblogo152.png" />
     <None Include="Images\weblogo76.png" />
+    <None Include="Dynamic\NavBar.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
     <Folder Include="Images\" />
     <Folder Include="Styles\" />
     <Folder Include="Images\Projects\" />
+    <Folder Include="Dynamic\" />
   </ItemGroup>
 </Project>
