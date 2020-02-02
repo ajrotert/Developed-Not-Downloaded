@@ -74,6 +74,10 @@
     <None Include="Images\Projects\Golf2.png" />
     <None Include="Images\Bio.png" />
     <None Include="Images\Contact.png" />
+    <None Include="Images\weblogo120.png" />
+    <None Include="Images\weblogo180.png" />
+    <None Include="Images\weblogo152.png" />
+    <None Include="Images\weblogo76.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
