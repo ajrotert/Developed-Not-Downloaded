@@ -237,3 +237,9 @@ iframe.size{
 h3.margin{
     margin-bottom: 2em;
 }
+p.bio{
+    font-size: 150%;
+}
+.reszieimg{
+    width: 10%;
+}

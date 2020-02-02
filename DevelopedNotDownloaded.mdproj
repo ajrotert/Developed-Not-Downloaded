@@ -12,7 +12,7 @@
   <ItemGroup>
     <None Include="AboutMe.html" />
     <None Include="Android.html" />
-    <None Include="Blog.html" />
+    <None Include="ContactUs.html" />
     <None Include="BusinessPlan.html" />
     <None Include="ComputerScienceCalculator.html" />
     <None Include="HolidayClicker.html" />
@@ -72,6 +72,8 @@
     <None Include="Images\Projects\GripFinder2.png" />
     <None Include="Images\Projects\Website2.png" />
     <None Include="Images\Projects\Golf2.png" />
+    <None Include="Images\Bio.png" />
+    <None Include="Images\Contact.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
