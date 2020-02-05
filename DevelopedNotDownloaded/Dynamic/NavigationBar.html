@@ -1,0 +1,70 @@
+﻿<nav id="nav-placeholder">
+    <ul class="nav">
+        <li class="navitem" id="Home-Page"><a href="index.html">Home</a></li>
+        <li class="dropdown navitem" id="iOS-Page">
+            <a href="javascript:void(0)" class="dropbtn">iOS Apps</a>    <!--Void so it does not link to a webpage-->
+            <div class="dropdown-content">
+                <a href="PutterFitter.html">Putter Fitter</a>
+                <a href="TrapshootingScorecard.html">Trapshooting Scorecard</a>
+                <a href="ComputerScienceCalculator.html">Computer Science Calculator</a>
+                <a href="SpeedometerPlusMap.html">Speedometer Plus Map</a>
+                <a href="HolidayClicker.html">Holiday Clicker</a>
+            </div>
+        </li>
+        <li class="dropdown navitem" id="Android-Page">
+            <a href="javascript:void(0)" class="dropbtn">Andriod Apps</a>    <!--Void so it does not link to a webpage-->
+            <div class="dropdown-content">
+                <a href="LiftCoefficientCalculator.html">Lift Coefficient Calculator</a>
+            </div>
+        </li>
+        <li class="dropdown navitem" id="Projects-Page">
+            <a href="Projects.html" class="dropbtn">Projects</a>
+            <div class="dropdown-content">
+                <a href="iOS.html">iOS Projects</a>
+                <a href="Android.html">Andriod Projects</a>
+                <a href="Other.html">Other Projects</a>
+            </div>
+        </li>
+        <li class="navitem" id="Business-Page"><a href="BusinessPlan.html">Business Plan</a></li>
+        <li class="navitem" id="About-Page"><a href="AboutMe.html">About Me</a></li>
+        <li class="navitem" id="Contact-Page"><a href="ContactUs.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<script>
+
+    //Loads the active class to the current webpage, based off the webpage title
+    
+    var title = document.title;
+    var text = "Developed Not Downlaoded | ";
+    
+    if((text + "Contact Us") == title)
+        document.getElementById("Contact-Page").classList.add("active");
+    else if ((text + "Home") == title)
+        document.getElementById("Home-Page").classList.add("active");
+    else if ((text + "About The Developer") == title)
+        document.getElementById("About-Page").classList.add("active");
+    else if ((text + "Business Plan") == title)
+        document.getElementById("Business-Page").classList.add("active");
+    else if ((text + "Projects") == title)
+        document.getElementById("Projects-Page").classList.add("active");
+    else if ((text + "iOS Projects") == title)
+        document.getElementById("Projects-Page").classList.add("active");
+    else if ((text + "Andriod Projects") == title)
+        document.getElementById("Projects-Page").classList.add("active");
+    else if ((text + "Other Projects") == title)
+        document.getElementById("Projects-Page").classList.add("active");
+    else if ((text + "Computer Science Calculator App") == title)
+        document.getElementById("iOS-Page").classList.add("active");
+    else if ((text + "Holiday Clicker App") == title)
+        document.getElementById("iOS-Page").classList.add("active");
+    else if ((text + "Lift Coefficient Calculator App") == title)
+        document.getElementById("Android-Page").classList.add("active");
+    else if ((text + "Putter Fitter App") == title)
+        document.getElementById("iOS-Page").classList.add("active");
+    else if ((text + "Simple Speedometer and Map App") == title)
+        document.getElementById("iOS-Page").classList.add("active");
+    else if ((text + "Trap Shooting Scorecard App") == title)
+        document.getElementById("iOS-Page").classList.add("active");
+
+</script>

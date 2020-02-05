@@ -1,0 +1,254 @@
+﻿footer{
+/*position: absolute;
+    bottom: 0;
+    width: 100%;
+    */
+}
+
+.right_position {
+    right: 0;
+    margin: 0%;
+    text-align: right;
+}
+
+.image_center{
+    display: block;
+    text-align: center;
+}
+body {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 1em;
+    border: 5px groove #022E6D;
+    background-color: #DCDCDC;
+}
+hr.nav {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+    border: solid #022E6D;    
+}
+hr.indexTop {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 0.5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: inset;
+    border-width: 20px;
+    border: solid #022E6D;
+}
+hr.indexBottom {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: inset;
+    border-width: 20px;
+    border: solid #022E6D;
+}
+hr.table {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: inset;
+    border-width: 20px;
+    border: solid #022E6D;
+}
+
+ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li.navitem{
+    float: left;
+}
+li.navitem a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.navitem a:hover, dropdown:hover .dropbtn {
+    background-color: #0066ff;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DCDCDC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+div.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active {
+    background-color: #022E6D;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.resize{
+    width: 100%;
+}
+
+h1.index{
+    color: white;
+    font-size: 300%;
+}
+h1.pages {
+    color: #022E6D;
+    font-size: 300%;
+    padding-top: 1em;
+}
+h2.index{
+    color: white;
+}
+h2.pages {
+    color: #022E6D;
+    font-size: 200%;
+    margin-left: 15%;
+}
+h3.index
+{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height:2;
+}
+p.pages{
+    margin-left: 15%;
+    color: black;
+}
+h3.pages {
+    margin-left: 15%;
+    color: black;
+}
+ul.pages{
+    margin-left: 15%;
+    color: black;
+}
+.pagesformat
+{
+    margin-left: 15%;
+}
+table.format{
+    width: 100%;
+    text-align: center;
+}
+img.format{
+    width: 90%;
+}
+img.resizetwothrids
+{
+    width: 66%;
+}
+td.format{
+    width: 50%;
+}
+td.five{
+    width: 20%;
+}
+p.just{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    overflow: auto;
+}
+li.sidenav a{
+    display: block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+}
+li.sidenav img{
+    text-decoration: none;
+    width: 100%;
+}
+li.sidenav a:hover {
+    background-color: #0066ff;
+    color: white;
+}
+div.plan{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div.plan h1 {
+    color: #0066ff;
+    font-size: 225%;
+    padding-top: 1em;
+    padding-bottom: 0em;
+}
+div.plan h2{
+    padding-bottom: .1em;
+    padding-top: .1em;
+    font-size: 150%;
+}
+div.plan p{
+    font-size: 125%;
+}
+iframe.size{
+    width: 55%;
+    height: 35em;
+}
+h3.margin{
+    margin-bottom: 2em;
+}
+p.bio{
+    font-size: 150%;
+}
+.reszieimg{
+    width: 10%;
+}
