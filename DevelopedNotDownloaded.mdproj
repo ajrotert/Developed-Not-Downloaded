@@ -38,7 +38,6 @@
     <None Include="Images\CS\Two.png" />
     <None Include="Images\DevelopedNotDownloaded.png" />
     <None Include="Images\DevLogo.ico" />
-    <None Include="Images\DNDBKGTemplate2.png" />
     <None Include="Images\Future.png" />
     <None Include="Images\HS\Four.png" />
     <None Include="Images\HS\One.png" />
@@ -81,6 +80,7 @@
     <None Include="Dynamic\NavBar.js" />
     <None Include="Dynamic\NavigationBar.html" />
     <None Include="Dynamic\NavigationBarJS.js" />
+    <None Include="Images\DNDBKGTemplate2.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
