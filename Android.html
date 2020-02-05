@@ -19,6 +19,7 @@
     <link rel="shortcut icon" href="Images/weblogo180.png" />
     <link rel="stylesheet" href="Styles/normalize.css" />
     <link rel="stylesheet" href="Styles/defaults.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 <body>
@@ -26,38 +27,9 @@
         <center><img src="Images/DevelopedNotDownloaded.png" height="300" alt="Logo" /></center>
         <hr class="nav" />
     </div>
-    <nav id="topnavbar">
-        <ul class="nav">
-            <li class="navitem"><a href="index.html">Home</a></li>
-            <li class="dropdown navitem">
-                <a href="javascript:void(0)" class="dropbtn">iOS Apps</a>    <!--Void so it does not link to a webpage-->
-                <div class="dropdown-content">
-                    <a href="PutterFitter.html">Putter Fitter</a>
-                    <a href="TrapshootingScorecard.html">Trapshooting Scorecard</a>
-                    <a href="ComputerScienceCalculator.html">Computer Science Calculator</a>
-                    <a href="SpeedometerPlusMap.html">Speedometer Plus Map</a>
-                    <a href="HolidayClicker.html">Holiday Clicker</a>
-                </div>
-            </li>
-            <li class="dropdown navitem">
-                <a href="javascript:void(0)" class="dropbtn">Andriod Apps</a>    <!--Void so it does not link to a webpage-->
-                <div class="dropdown-content">
-                    <a href="LiftCoefficientCalculator.html">Lift Coefficient Calculator</a>
-                </div>
-            </li>
-            <li class="dropdown navitem active">
-                <a href="Projects.html" class="dropbtn">Projects</a>
-                <div class="dropdown-content">
-                    <a href="iOS.html">iOS Projects</a>
-                    <a href="Android.html">Andriod Projects</a>
-                    <a href="Other.html">Other Projects</a>
-                </div>
-            </li>
-            <li class="navitem"><a href="BusinessPlan.html">Business Plan</a></li>
-            <li class="navitem"><a href="AboutMe.html">About Me</a></li>
-            <li class="navitem"><a href="ContactUs.html">Contact Us</a></li>
-        </ul>
-    </nav>
+
+    <nav id="nav-placeholder"></nav>
+
     <hr class="nav" />
 
     <center><h1 class="pages">Andriod Projects</h1></center>
@@ -95,6 +67,8 @@
         </div>
 
     </footer>
+    <script src="Dynamic/NavigationBarJS.js"></script>
+
     <script src="Dynamic/NavBar.js"></script>
 
 </body>

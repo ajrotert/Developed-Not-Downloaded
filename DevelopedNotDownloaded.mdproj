@@ -79,6 +79,8 @@
     <None Include="Images\weblogo152.png" />
     <None Include="Images\weblogo76.png" />
     <None Include="Dynamic\NavBar.js" />
+    <None Include="Dynamic\NavigationBar.html" />
+    <None Include="Dynamic\NavigationBarJS.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
