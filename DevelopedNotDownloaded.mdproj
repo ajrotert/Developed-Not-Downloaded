@@ -81,6 +81,10 @@
     <None Include="Dynamic\NavigationBar.html" />
     <None Include="Dynamic\NavigationBarJS.js" />
     <None Include="Images\DNDBKGTemplate2.png" />
+    <None Include="Dynamic\HTML\iOSPlaceholder.html" />
+    <None Include="Dynamic\loadprojects.js" />
+    <None Include="Dynamic\HTML\AndroidPlaceholder.html" />
+    <None Include="Dynamic\HTML\OtherPlaceholder.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -88,5 +92,6 @@
     <Folder Include="Styles\" />
     <Folder Include="Images\Projects\" />
     <Folder Include="Dynamic\" />
+    <Folder Include="Dynamic\HTML\" />
   </ItemGroup>
 </Project>
