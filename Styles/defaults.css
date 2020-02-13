@@ -266,3 +266,6 @@ p.bio{
     margin-left: 17.5%;
     margin-right: 17.5%;
 }
+ul.effect{
+    box-shadow: 1px 1px 3px 3px black;
+}
