@@ -101,6 +101,10 @@ hr.indexBottom {
 
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
+    .grid-container{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
     hr.indexTop{
         margin-left: 10%;
         margin-right: 10%;
