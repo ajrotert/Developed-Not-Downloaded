@@ -91,6 +91,14 @@
     <None Include="Styles\AboutLayout.css" />
     <None Include="Styles\ContactLayout.css" />
     <None Include="Styles\BusinessLayout.css" />
+    <None Include="Images\Projects\Lift.png" />
+    <None Include="Images\Projects\OTH.png" />
+    <None Include="Images\Projects\Holiday.png" />
+    <None Include="Images\Projects\Trap.png" />
+    <None Include="Images\Projects\CSC.png" />
+    <None Include="Images\Projects\PutterFitter.png" />
+    <None Include="Images\Projects\Speedometer.png" />
+    <None Include="Images\Projects\FireChat.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
