@@ -1,0 +1,21 @@
+﻿/********************************** Grid Layout **********************************/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 2em;
+}
+
+/********************************** Project Items **********************************/
+p.just {
+    text-align: justify;
+}
+
+hr.table {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: inset;
+    border-width: 20px;
+    border: solid #022E6D;
+}

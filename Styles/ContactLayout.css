@@ -1,0 +1,25 @@
+﻿/********************************** Grid Layout **********************************/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 'header header' 'image content' 'main main';
+    grid-row-gap: 1em;
+    align-items: center;
+}
+
+#grid-head {
+    grid-area: header;
+}
+
+#grid-image {
+    grid-area: image;
+}
+
+#grid-content {
+    grid-area: content;
+}
+
+#grid-main {
+    grid-area: main;
+}

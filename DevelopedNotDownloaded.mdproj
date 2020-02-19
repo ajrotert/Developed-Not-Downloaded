@@ -85,6 +85,11 @@
     <None Include="Dynamic\loadprojects.js" />
     <None Include="Dynamic\HTML\AndroidPlaceholder.html" />
     <None Include="Dynamic\HTML\OtherPlaceholder.html" />
+    <None Include="Styles\IndexLayout.css" />
+    <None Include="Styles\PreviewLayout.css" />
+    <None Include="Styles\ProjectLayout.css" />
+    <None Include="Styles\AboutLayout.css" />
+    <None Include="Styles\ContactLayout.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />

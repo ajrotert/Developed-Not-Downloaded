@@ -13,9 +13,11 @@
     <link rel="apple-touch-icon" sizes="76x76" href=“Images/weblogo76.png">
     <link rel="apple-touch-icon" sizes="120x120" href=“Images/weblogo120.png">
     <link rel="apple-touch-icon" sizes="152x152" href=“Images/weblogo152.png">
+
     <link rel="shortcut icon" href="Images/weblogo180.png" />
     <link rel="stylesheet" href="Styles/normalize.css" />
     <link rel="stylesheet" href="Styles/defaults.css" />
+    <link rel="stylesheet" href="Styles/AboutLayout.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
@@ -28,107 +30,108 @@
     <nav id="nav-placeholder"></nav>
 
     <hr class="nav" />
-    <center><h1 class="pages">About Me</h1></center>
-    <center><h1>Andrew Rotert</h1></center>
 
-    <table class="format">
-        <tr>
-            <td class="format">
-                <img class="format" src="Images/Bio.png" alt="Bio" />
+    <main class="grid-container">
+        <div id="grid-head">
+            <center><h1 class="pages">About Me</h1></center>
+            <center><h1>Andrew Rotert</h1></center>
+        </div>
 
-            </td>
-            <td class="format">
-                <!--Blank-->
-                <p class="bio">Short Bio:</p>
-                <p class="just bio">
-                    I am from Sioux Falls, SD. I got into programming because I like to problem solve. I am currently majoring in computer science and applied mathematics at Dakota State University.
-                    I enjoy taking on new challenges and learning new techniques to solve them. Over my sophomore year of college, after completing Object Oriented design, I got into mobile app
-                    development. I currently have five published iOS apps, and one published Android app. Now in my third year I build this website as way to show my work, as well support pages
-                    for my published applications.
+        <div id="grid-image">
+            <img class="format" src="Images/Bio.png" alt="Image of the developer" />
+        </div>
+        <div id="grid-content">
+            <p class="bio">Short Bio:</p>
+            <p class="just bio">
+                I am from Sioux Falls, SD. I got into programming because I like to problem solve. I am currently majoring in computer science and applied mathematics at Dakota State University.
+                I enjoy taking on new challenges and learning new techniques to solve them. Over my sophomore year of college, after completing Object Oriented design, I got into mobile app
+                development. I currently have five published iOS apps, and one published Android app. Now in my third year I build this website as way to show my work, as well support pages
+                for my published applications.
+            </p>
+        </div>
+
+        <div id="grid-main">
+            <center><h1 class="pages">Resume</h1></center>
+            <div>
+                <center>
+                    <h1>Andrew Rotert</h1>
+                    <h3>Sioux Falls, SD</h3>
+                    <h3>(605) 215-8188</h3>
+                    <h3>Andrew.Rotert@trojans.dsu.edu</h3>
+                </center>
+
+                <h2>Education</h2>
+                <p>Dakota State University, Madison SD: August 2017 to present</p>
+                <ul>
+                    <li>Beacom College of Computer and Cyber Sciences</li>
+                </ul>
+                <p>
+                    Major: Computer Science: Expected Graduation May 2021
                 </p>
-            </td>
-        </tr>
-    </table>
-    <center><h1 class="pages">Resume</h1></center>
-    <div>
-        <center>
-            <h1>Andrew Rotert</h1>
-            <h3>Sioux Falls, SD</h3>
-            <h3>(605) 215-8188</h3>
-            <h3>Andrew.Rotert@trojans.dsu.edu</h3>
-        </center>
-
-        <h2>Education</h2>
-        <p>Dakota State University, Madison SD: August 2017 to present</p>
-        <ul>
-            <li>Beacom College of Computer and Cyber Sciences</li>
-        </ul>
-        <p>
-            Major: Computer Science: Expected Graduation May 2021
-        </p>
-        <p>Major: Applied Mathematics</p>
-        <p>G.P.A: 3.89</p>
-        <h2>Computer Skills</h2>
-        <ul>
-            <li>
-                Programming experience with:
-                <ul>
-                    <li>C#(Advanced), C/C++(Advanced), Python(Intermediate) and Java(Intermediate)</li>
-                </ul>
-            </li>
-            <li>
-                Use with:
-                <ul>
-                    <li>Visual Studio, Command Line, and XCode</li>
-                </ul>
-            </li>
-        </ul>
-        <h2>Related Coursework</h2>
-        <ul>
-            <li>Computer Science I & II, Object Oriented Design, Data Structures, Systems Analyst and Design, Software Engineering, Algorithms and Optimization, Machine Learning Fundamentals, Web Applications, Database Management</li>
-            <li>Info Security Fundamentals, Assembly, Networking, Operating Systems</li>
-            <li>Calculus I, Calculus II, Introduction to Discrete Math, Introduction to Statistics, Discrete Mathematics, and Signals and Systems</li>
-        </ul>
-        <h2>Projects</h2>
-        <p>View my projects <a href="Projects.html">here</a></p>
-        <ul>
-            <li>
-                iOS App Development
-                <ul>
-                    <li>https://itunes.apple.com/us/developer/andrew-rotert/id1448329272</li>
-                    <li>Developed and published multiple apps using concepts learned in Object Orientated Programming, Data Structures, and Assembly.</li>
-                </ul>
-            </li>
-            <li>
-                Programming Competitions
+                <p>Major: Applied Mathematics</p>
+                <p>G.P.A: 3.89</p>
+                <h2>Computer Skills</h2>
                 <ul>
                     <li>
-                        Competed in multiple programing competitions:
-                        <ul><li>ACM Regional, DSU local competition, Google Hashcode, MCIS, and Google CodeJam</li></ul>
+                        Programming experience with:
+                        <ul>
+                            <li>C#(Advanced), C/C++(Advanced), Python(Intermediate) and Java(Intermediate)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Use with:
+                        <ul>
+                            <li>Visual Studio, Command Line, and XCode</li>
+                        </ul>
                     </li>
                 </ul>
-            </li>
-            <li>
-                Window Forms Projects
-                <ul><li>Developed multiple windows forms using concepts learned in Object Orientated Programming and Data Structures.</li></ul>
-            </li>
-            <li>
-                Android App Development
-                <ul><li>Using concepts learned in Data Structures and from other projects, developed and published an Android mobile application.</li></ul>
-            </li>
-        </ul>
-        <h2>Involvements and Memberships</h2>
-        <ul>
-            <li>General Beadle Honors program at DSU</li>
-            <li>DSU Golf Team</li>
-            <li>DSU Programming Club</li>
-        </ul>
-        <h2>Work Experience</h2>
-        <p>Austads Golf: December 2013 to present</p>
-        <p>Position: Retail Sales Associate</p>
+                <h2>Related Coursework</h2>
+                <ul>
+                    <li>Computer Science I & II, Object Oriented Design, Data Structures, Systems Analyst and Design, Software Engineering, Algorithms and Optimization, Machine Learning Fundamentals, Web Applications, Database Management</li>
+                    <li>Info Security Fundamentals, Assembly, Networking, Operating Systems</li>
+                    <li>Calculus I, Calculus II, Introduction to Discrete Math, Introduction to Statistics, Discrete Mathematics, and Signals and Systems</li>
+                </ul>
+                <h2>Projects</h2>
+                <p>View my projects <a href="Projects.html">here</a></p>
+                <ul>
+                    <li>
+                        iOS App Development
+                        <ul>
+                            <li>https://itunes.apple.com/us/developer/andrew-rotert/id1448329272</li>
+                            <li>Developed and published multiple apps using concepts learned in Object Orientated Programming, Data Structures, and Assembly.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Programming Competitions
+                        <ul>
+                            <li>
+                                Competed in multiple programing competitions:
+                                <ul><li>ACM Regional, DSU local competition, Google Hashcode, MCIS, and Google CodeJam</li></ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Window Forms Projects
+                        <ul><li>Developed multiple windows forms using concepts learned in Object Orientated Programming and Data Structures.</li></ul>
+                    </li>
+                    <li>
+                        Android App Development
+                        <ul><li>Using concepts learned in Data Structures and from other projects, developed and published an Android mobile application.</li></ul>
+                    </li>
+                </ul>
+                <h2>Involvements and Memberships</h2>
+                <ul>
+                    <li>General Beadle Honors program at DSU</li>
+                    <li>DSU Golf Team</li>
+                    <li>DSU Programming Club</li>
+                </ul>
+                <h2>Work Experience</h2>
+                <p>Austads Golf: December 2013 to present</p>
+                <p>Position: Retail Sales Associate</p>
 
-    </div>
-
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="right_position">
             <img src="Images/ARLogo.png" height="150" alt="Andrew Rotert Development Logo" />

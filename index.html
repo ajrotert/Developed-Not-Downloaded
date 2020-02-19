@@ -15,9 +15,11 @@ body {
     <link rel="apple-touch-icon" sizes="120x120" href=“Images/weblogo120.png">
     <link rel="apple-touch-icon" sizes="152x152" href=“Images/weblogo152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="Images/weblogo180.png" />
+
     <link rel="shortcut icon" href="Images/weblogo180.png" />
     <link rel="stylesheet" href="Styles/normalize.css" />
     <link rel="stylesheet" href="Styles/defaults.css" />
+    <link rel="stylesheet" href="Styles/IndexLayout.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
@@ -31,50 +33,56 @@ body {
 
     <hr class="nav" />
 
-    <div class="container">
-        <img src="Images/LaptopFW.png" alt="Laptop" class="resize" />
-        <div class="centered">
-            <h1 class="index">Offical Website of Developed Not Downloaded</h1>
-            <h2 class="index">The start of something big.</h2>
-        </div>
-    </div>
-    <hr class="indexTop" />
-    <h3 class="index">
-        Developed Not Downloaded gets its name from the passion that
-        stems from building a product. As the name suggests, a product is being created that may not exist anywhere. A piece of software is acquired by developing it, not just downloading it.
-    </h3>
-    <hr class="indexBottom" />
+    <main class="grid-container">
 
-    <table class="format">
-        <tr>
-            <td><img class="format" src="Images/Support.png" alt="Mobile App Support" /></td>
-            <td><h2>A website for mobile app support</h2></td>
-        </tr>
-        <tr>
-            <td>
-                <h2>A website for ongoing projects</h2>
-            </td>
-            <td>
-                <img class="format" src="Images/Projects.png" alt="Ongoing Projects" />
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img class="format" src="Images/Future.png" alt="Future Business Plan" />
-            </td>
-            <td>
-                <h2>A website for a future business platform</h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h2>A website about the developer, Andrew Rotert</h2>
-            </td>
-            <td>
-                <img class="format" src="Images/Self.png" alt="About Developer" />
-            </td>
-        </tr>
-    </table>
+        <div id="grid-head">
+            <div class="container">
+                <img src="Images/LaptopFW.png" alt="Laptop" class="resize" />
+                <div class="centered">
+                    <h1 class="index">Offical Website of Developed Not Downloaded</h1>
+                    <h2 class="index">The start of something big.</h2>
+                </div>
+            </div>
+        </div>
+
+        <div id="grid-mission">
+            <hr class="indexTop" />
+            <h3 class="index">
+                Developed Not Downloaded gets its name from the passion that
+                stems from building a product. As the name suggests, a product is being created that may not exist anywhere. A piece of software is acquired by developing it, not just downloading it.
+            </h3>
+            <hr class="indexBottom" />
+        </div>
+
+        <div id="grid-image1">
+            <img class="format" src="Images/Support.png" alt="Mobile App Support" />
+        </div>
+        <div id="grid-content1">
+            <h2>A website for mobile app support</h2>
+        </div>
+
+        <div id="grid-image2">
+            <img class="format" src="Images/Projects.png" alt="Ongoing Projects" />
+        </div>
+        <div id="grid-content2">
+            <h2>A website for ongoing projects</h2>
+        </div>
+
+        <div id="grid-image3">
+            <img class="format" src="Images/Future.png" alt="Future Business Plan" />
+        </div>
+        <div id="grid-content3">
+            <h2>A website for a future business platform</h2>
+        </div>
+
+        <div id="grid-image4">
+            <img class="format" src="Images/Self.png" alt="About Developer" />
+        </div>
+        <div id="grid-content4">
+            <h2>A website about the developer, Andrew Rotert</h2>
+        </div>
+
+    </main>
 
     <footer>
         <div class="right_position">

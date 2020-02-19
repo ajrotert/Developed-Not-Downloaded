@@ -1,0 +1,57 @@
+﻿/********************************** Grid Layout **********************************/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        'header header header header header'
+        'screen1 screen2 screen3 screen4 screen5'
+        'about about about about about'
+        'policy policy policy policy policy';
+    
+    grid-row-gap: 1em;
+    margin-left: 15%;
+}
+#grid-head{
+    grid-area: header;
+}
+#grid-screenshot1 {
+    grid-area: screen1;
+}
+#grid-screenshot12 {
+    grid-area: screen2;
+}
+#grid-screenshot3 {
+    grid-area: screen3;
+}
+#grid-screenshot4 {
+    grid-area: screen4;
+}
+#grid-screenshot5 {
+    grid-area: screen5;
+}
+#grid-about{
+    grid-area: about;
+}
+#grid-privacy {
+    grid-area: policy;
+}
+
+
+/********************************** Preview Items **********************************/
+
+
+p.pages {
+    color: black;
+}
+
+h3.pages {
+    color: black;
+}
+
+ul.pages {
+    color: black;
+}
+img.gridsize {
+    width: 90%;
+}

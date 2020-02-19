@@ -33,36 +33,19 @@ hr.nav {
     border-width: 5px;
     border: solid #022E6D;    
 }
-hr.indexTop {
-    display: block;
-    margin-top: 5%;
-    margin-bottom: 0.5em;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-style: inset;
-    border-width: 20px;
-    border: solid #022E6D;
+
+h1.pages {
+    color: #022E6D;
+    font-size: 300%;
+    padding-top: 1em;
+    text-align: center;
 }
-hr.indexBottom {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-style: inset;
-    border-width: 20px;
-    border: solid #022E6D;
+
+h2.pages {
+    color: #022E6D;
+    font-size: 200%;
 }
-hr.table {
-    display: block;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-style: inset;
-    border-width: 20px;
-    border: solid #022E6D;
-}
+
 hr.projects {
     display: block;
     margin-top: 1%;
@@ -129,82 +112,8 @@ div.dropdown-content a {
     z-index: 1;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.resize{
-    width: 100%;
-}
-
-h1.index{
-    color: white;
-    font-size: 300%;
-}
-h1.pages {
-    color: #022E6D;
-    font-size: 300%;
-    padding-top: 1em;
-}
-h2.index{
-    color: white;
-}
-h2.pages {
-    color: #022E6D;
-    font-size: 200%;
-    margin-left: 15%;
-}
-h3.index
-{
-    margin-top: .5em;
-    margin-bottom: .5em;
-    margin-left: 20%;
-    margin-right: 20%;
-    line-height:2;
-}
-p.pages{
-    margin-left: 15%;
-    color: black;
-}
-h3.pages {
-    margin-left: 15%;
-    color: black;
-}
-ul.pages{
-    margin-left: 15%;
-    color: black;
-}
-.pagesformat
-{
-    margin-left: 15%;
-}
-table.format{
-    width: 100%;
-    text-align: center;
-}
 img.format{
     width: 90%;
-}
-img.resizetwothrids
-{
-    width: 66%;
-}
-td.format{
-    width: 50%;
-}
-td.five{
-    width: 20%;
-}
-p.just{
-    text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 ul.sidenav {
