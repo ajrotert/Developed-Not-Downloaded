@@ -90,6 +90,7 @@
     <None Include="Styles\ProjectLayout.css" />
     <None Include="Styles\AboutLayout.css" />
     <None Include="Styles\ContactLayout.css" />
+    <None Include="Styles\BusinessLayout.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />

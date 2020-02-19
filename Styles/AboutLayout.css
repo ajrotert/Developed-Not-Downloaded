@@ -1,11 +1,14 @@
 ﻿/********************************** Grid Layout **********************************/
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto;
     grid-template-areas: 'header header' 'image content' 'main main';
     grid-row-gap: 1em;
+    grid-column-gap: 1em;
     align-items: center;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 }
 
 #grid-head {
@@ -20,4 +23,30 @@
 }
 #grid-main{
     grid-area: main;
+}
+
+/********************************** About Items **********************************/
+p.bio {
+    font-size: 150%;
+}
+p.just {
+    text-align: justify;
+}
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    .grid-container {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 'header' 'image' 'content' 'main';
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 175%;
+    }
 }

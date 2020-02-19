@@ -19,3 +19,37 @@ hr.table {
     border-width: 20px;
     border: solid #022E6D;
 }
+
+hr.projects {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: inset;
+    border-width: 20px;
+    border: solid #022E6D;
+}
+
+.smaller{
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    .grid-container {
+        grid-template-columns: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    p{
+        font-size: 175%;
+    }
+    ul{
+        font-size: 165%;
+    }
+}

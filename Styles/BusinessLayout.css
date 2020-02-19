@@ -1,0 +1,46 @@
+﻿/********************************** Business Items **********************************/
+div.plan {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+    div.plan h1 {
+        color: #0066ff;
+        font-size: 225%;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+
+    div.plan h2 {
+        padding-bottom: .1em;
+        padding-top: .1em;
+        font-size: 150%;
+    }
+
+    div.plan p {
+        font-size: 125%;
+    }
+
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    div.plan h1 {
+        color: #0066ff;
+        font-size: 275%;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+
+    div.plan h2 {
+        padding-bottom: .1em;
+        padding-top: .1em;
+        font-size: 200%;
+    }
+
+    div.plan p {
+        font-size: 175%;
+    }
+
+    ul {
+        font-size: 165%;
+    }
+}

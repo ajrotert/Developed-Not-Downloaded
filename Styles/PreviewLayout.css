@@ -3,15 +3,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-        'header header header header header'
-        'screen1 screen2 screen3 screen4 screen5'
-        'about about about about about'
-        'policy policy policy policy policy';
-    
+    grid-template-areas: 'header header header header header' 'screen1 screen2 screen3 screen4 screen5' 'about about about about about' 'policy policy policy policy policy';
     grid-row-gap: 1em;
     margin-left: 15%;
 }
+
 #grid-head{
     grid-area: header;
 }
@@ -54,4 +50,40 @@ ul.pages {
 }
 img.gridsize {
     width: 90%;
+}
+
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    .grid-container {
+        margin-right: 5%;
+    }
+    img .gridsize{
+      width: 95%;
+    }
+    p.pages {
+        font-size: 175%;
+    }
+
+    h3.pages {
+        font-size: 200%;
+    }
+
+    ul.pages {
+        font-size: 165%;
+    }
+    h1{
+        font-size: 225%;
+    }
+    h2{
+        font-size: 200%;
+    }
+    h3{
+        font-size: 185%;
+    }
+    p {
+        font-size: 175%;
+    }
+    ul {
+        font-size: 165%;
+    }
 }
