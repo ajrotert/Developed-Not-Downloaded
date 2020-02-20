@@ -21,6 +21,19 @@ body {
     <link rel="stylesheet" href="Styles/defaults.css" />
     <link rel="stylesheet" href="Styles/IndexLayout.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+
+        if (document.location.hostname.includes("cs-developer") && document.referrer=="") {
+            document.location.href = "http://cs-developer.info/AboutMe.html"
+            redirected = true;
+        }
+        if (document.location.hostname.includes("projects.cs-developer") && document.referrer=="") {
+            document.location.href = "http://cs-developer.info/Projects.html"
+            p_redirected = true;
+        }
+
+    </script>
+
 </head>
 <body>
 
