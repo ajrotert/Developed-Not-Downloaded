@@ -98,7 +98,6 @@ hr.indexBottom {
 .resize {
     width: 100%;
 }
-
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .grid-container{

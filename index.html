@@ -25,11 +25,12 @@ body {
 
         if (document.location.hostname.includes("cs-developer") && document.referrer=="") {
             document.location.href = "http://cs-developer.info/AboutMe.html"
-            redirected = true;
         }
         if (document.location.hostname.includes("projects.cs-developer") && document.referrer=="") {
             document.location.href = "http://cs-developer.info/Projects.html"
-            p_redirected = true;
+        }
+        if (document.location.hostname.includes("github.cs-developer") && document.referrer == "") {
+            document.location.href = "https://github.com/ajrotert/repositories"
         }
 
     </script>
@@ -67,7 +68,7 @@ body {
             <hr class="indexBottom" />
         </div>
 
-        <div id="grid-image1">
+        <div id="grid-image1" >
             <img class="resizing" src="Images/Support.png" alt="Mobile App Support" />
         </div>
         <div id="grid-content1">
