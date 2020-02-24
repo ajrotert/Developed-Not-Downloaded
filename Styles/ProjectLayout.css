@@ -35,6 +35,8 @@ hr.projects {
     margin-left: 17.5%;
     margin-right: 17.5%;
 }
+.top-margin {
+}
 
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
@@ -51,5 +53,8 @@ hr.projects {
     }
     ul{
         font-size: 165%;
+    }
+    .top-margin{
+        padding-top: 8em;
     }
 }
