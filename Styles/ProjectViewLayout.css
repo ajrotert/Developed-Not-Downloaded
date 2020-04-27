@@ -1,0 +1,34 @@
+﻿/********************************** Project Items **********************************/
+
+.region{
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.region h2{
+    font-size: 275%;
+}
+.region p{
+    font-size: 200%;
+}
+
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    .region {
+        grid-template-columns: 100%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 175%;
+    }
+
+    .top-margin {
+        padding-top: 8em;
+    }
+}

@@ -103,6 +103,7 @@
     <None Include="Dynamic\Scripts\PageLoader.js" />
     <None Include="ProjectView.html" />
     <None Include="Dynamic\Scripts\LoadPage.js" />
+    <None Include="Styles\ProjectViewLayout.css" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
