@@ -101,6 +101,8 @@
     <None Include="Images\Projects\FireChat.png" />
     <None Include="Images\Projects\ClientHost.png" />
     <None Include="Dynamic\Scripts\PageLoader.js" />
+    <None Include="ProjectView.html" />
+    <None Include="Dynamic\Scripts\LoadPage.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
