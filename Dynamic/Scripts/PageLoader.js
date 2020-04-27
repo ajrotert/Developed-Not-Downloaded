@@ -2,6 +2,7 @@
 var loaded;
 window.onload = function () {
     loaded = false;
+    /* Page content is loaded after the page loads, so the elements will not be found, this ensures that the content will be loaded first */
     window.onmousemove = events;
 };
 
