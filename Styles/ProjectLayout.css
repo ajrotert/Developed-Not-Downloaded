@@ -38,6 +38,49 @@ hr.projects {
 .top-margin {
 }
 
+
+.block_region {
+    position: relative;
+}
+
+.block_region .overlay_region {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.block_region .inner_region {
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.block_region .inner_region a {
+    pointer-events: all;
+}
+
+
+a.region{
+    color: black;
+}
+a.region:link {
+    text-decoration: none;
+}
+
+a.region:visited {
+    text-decoration: none;
+}
+
+a.region:hover {
+    text-decoration: none;
+}
+
+a.region:active {
+    text-decoration: none;
+}
+
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .grid-container {

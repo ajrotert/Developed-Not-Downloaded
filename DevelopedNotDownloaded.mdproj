@@ -100,6 +100,7 @@
     <None Include="Images\Projects\Speedometer.png" />
     <None Include="Images\Projects\FireChat.png" />
     <None Include="Images\Projects\ClientHost.png" />
+    <None Include="Dynamic\Scripts\PageLoader.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -108,5 +109,6 @@
     <Folder Include="Images\Projects\" />
     <Folder Include="Dynamic\" />
     <Folder Include="Dynamic\HTML\" />
+    <Folder Include="Dynamic\Scripts\" />
   </ItemGroup>
 </Project>
