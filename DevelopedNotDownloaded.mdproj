@@ -99,11 +99,12 @@
     <None Include="Images\Projects\PutterFitter.png" />
     <None Include="Images\Projects\Speedometer.png" />
     <None Include="Images\Projects\FireChat.png" />
-    <None Include="Images\Projects\ClientHost.png" />
     <None Include="Dynamic\Scripts\PageLoader.js" />
     <None Include="ProjectView.html" />
     <None Include="Dynamic\Scripts\LoadPage.js" />
     <None Include="Styles\ProjectViewLayout.css" />
+    <None Include="Images\Projects\NumericDetector.png" />
+    <None Include="Images\Projects\ClientHost.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
