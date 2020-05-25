@@ -105,6 +105,13 @@
     <None Include="Styles\ProjectViewLayout.css" />
     <None Include="Images\Projects\NumericDetector.png" />
     <None Include="Images\Projects\ClientHost.png" />
+    <None Include="AugmentedRealityVisualizer.html" />
+    <None Include="Images\AR\One.png" />
+    <None Include="Images\AR\Two.png" />
+    <None Include="Images\AR\Three.png" />
+    <None Include="Images\AR\Four.png" />
+    <None Include="Images\AR\Five.png" />
+    <None Include="Images\AppLogos\Augmented.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -114,5 +121,6 @@
     <Folder Include="Dynamic\" />
     <Folder Include="Dynamic\HTML\" />
     <Folder Include="Dynamic\Scripts\" />
+    <Folder Include="Images\AR\" />
   </ItemGroup>
 </Project>
