@@ -112,6 +112,7 @@
     <None Include="Images\AR\Four.png" />
     <None Include="Images\AR\Five.png" />
     <None Include="Images\AppLogos\Augmented.png" />
+    <None Include="Images\Projects\ARViewer.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
