@@ -99,16 +99,6 @@ hr.indexBottom {
     width: 100%;
 }
 /*********************** Mobile Layout ***************************/
-
-@media screen and (max-width: 415px) {
-    h1.index {
-        font-size: 100%;
-    }
-
-    h2.index {
-        font-size: 75%;
-    }
-}
 @media screen and (max-width: 1000px) {
     .grid-container{
         margin-right: 1.5%;
@@ -132,5 +122,38 @@ hr.indexBottom {
         font-size: 125%;
         margin-left: 1%;
         margin-right: 1%;
+    }
+}
+@media screen and (max-width: 750px) {
+    h1.index {
+        font-size: 125%;
+    }
+
+    h2.index {
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    h1.index {
+        font-size: 100%;
+    }
+
+    h2.index {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    h1.index {
+        font-size: 5px;
+    }
+
+    h2.index {
+        font-size: 5px;
+    }
+
+    body {
+        color: black;
     }
 }

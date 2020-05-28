@@ -56,6 +56,9 @@
     .active {
         background-color: #022E6D;
     }
+    .hamburgerBar{
+        display: none;
+    }
 
     .sticky {
         position: fixed;
@@ -77,12 +80,51 @@
             width: 100%;
         }
     }
+    @media screen and (max-width: 600px) {
+        .nav li:not(:first-child):not(:last-child) {
+            display: none;
+        }
+
+        .nav.responsive li:not(:empty) {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+
+        .navitem.hamburgerBar {
+            float: right;
+            display: block;
+        }
+
+        .nav.responsive {
+            position: relative;
+        }
+
+            .nav.responsive .hamburgerBar {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        .dropdown-content a{
+            background-color: #DCDCDC;
+        }
+        .dropdown:hover .dropdown-content {
+            display: contents;
+            color: white;
+        }
+
+        li.navitem a, .dropbtn {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
 
 </style>
 
 
 <nav id="nav-placeholder">
-    <ul class="nav">
+    <ul class="nav" id="navStart">
         <li class="navitem" id="Home-Page"><a href="index.html">Home</a></li>
         <li class="dropdown navitem" id="iOS-Page">
             <a href="javascript:void(0)" class="dropbtn">iOS Apps</a>    <!--Void so it does not link to a webpage-->
@@ -112,16 +154,15 @@
         <li class="navitem" id="Business-Page"><a href="BusinessPlan.html">Business Plan</a></li>
         <li class="navitem" id="About-Page"><a href="AboutMe.html">About Me</a></li>
         <li class="navitem" id="Contact-Page"><a href="ContactUs.html">Contact Us</a></li>
+        <li class="navitem hamburgerBar" id="Drop-Down"><a href="javascript:void(0)" onclick="toggleFunction()">&#9776;</a></li>
     </ul>
 </nav>
 
-<script>
+<script>//Loads the active class to the current webpage, based off the webpage title
 
-    //Loads the active class to the current webpage, based off the webpage title
-    
     var title = document.title;
     var text = "Developed Not Downlaoded | ";
-    
+
     if ((text + "Contact Us") == title)
         document.getElementById("Contact-Page").classList.add("active");
     else if ((text + "Home") == title)
@@ -154,5 +195,14 @@
         document.getElementById("iOS-Page").classList.add("active");
     else if ((text + "Augmented Reality Visualizer App") == title)
         document.getElementById("iOS-Page").classList.add("active");
+
+    function toggleFunction() {
+        var x = document.getElementById("navStart");
+        if (x.className === "nav") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav";
+        }
+    }
 
 </script>
