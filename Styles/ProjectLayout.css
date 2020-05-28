@@ -85,19 +85,23 @@ a.region:active {
 @media screen and (max-width: 1000px) {
     .grid-container {
         grid-template-columns: 100%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
     h2{
-        font-size: 200%;
-    }
-    p{
         font-size: 175%;
     }
+    p{
+        font-size: 100%;
+    }
     ul{
-        font-size: 165%;
+        font-size: 87.5%;
     }
     .top-margin{
         padding-top: 8em;
+    }
+    .smaller {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }

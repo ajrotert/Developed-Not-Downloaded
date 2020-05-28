@@ -20,12 +20,12 @@
         margin-right: 7.5%;
     }
 
-    h2 {
-        font-size: 200%;
+    .region h2 {
+        font-size: 100%;
     }
 
-    p {
-        font-size: 175%;
+    .region p {
+        font-size: 87.5%;
     }
 
     .top-margin {

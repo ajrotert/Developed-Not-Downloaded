@@ -61,3 +61,26 @@ form.contact > input {
         form.contact > button:hover {
             background-color: #0066ff;
         }
+
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    .grid-container {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-areas: 'header' 'image' 'content' 'form' 'main';
+    }
+    #grid-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    h1{
+        font-size: 125%;
+    }
+    h3{
+        font-size: 87.5%;
+    }
+}

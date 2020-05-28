@@ -9,6 +9,7 @@ window.onload = function () {
 var behavior = function (evt, link) {
     var link = link;
     var html_block = link.getElementsByTagName("div")[0].getElementsByTagName("center")[0];
+    html_block.classList.add("region")
     localStorage['html'] = html_block.innerHTML;
     window.location.assign("ProjectView.html");
     if (!evt)

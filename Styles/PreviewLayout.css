@@ -55,35 +55,36 @@ img.gridsize {
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .grid-container {
-        margin-right: 5%;
+        margin-left: 18.5%;
+        margin-right: 1.5%;
     }
     img .gridsize{
       width: 95%;
     }
     p.pages {
-        font-size: 175%;
+        font-size: 87.5%;
     }
 
     h3.pages {
-        font-size: 200%;
+        font-size: 82.5%;
     }
 
     ul.pages {
-        font-size: 165%;
+        font-size: 82.5%;
     }
     h1{
-        font-size: 225%;
+        font-size: 112.5%;
     }
     h2{
-        font-size: 200%;
+        font-size: 100%;
     }
     h3{
-        font-size: 185%;
+        font-size: 92.5%;
     }
     p {
-        font-size: 175%;
+        font-size: 87.5%;
     }
     ul {
-        font-size: 165%;
+        font-size: 82.5%;
     }
 }

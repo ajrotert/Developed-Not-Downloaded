@@ -11,6 +11,9 @@ margin-top: 5%;
 }
 
 /********************************** Standard Items **********************************/
+.logo{
+    height: 300px;
+}
 body {
     margin: auto;
     width: 90%;
@@ -55,7 +58,6 @@ ul.sidenav {
     margin: 0;
     padding: 0;
     width: 10%;
-    min-width: 100px;
     background-color: #333;
     color: white;
     position: fixed;
@@ -87,17 +89,43 @@ ul.effect {
         width: 100%;
         padding: 0em;
     }
-    ul.sidenav{
-        font-size: 22px;
+    .logo{
+        padding-top: 2.5%;
+        padding-left: 1%;
+        padding-right: 1%;
+        height: auto;
+        width: 97.5%;
+    }
+    ul.sidenav {
+        font-size: 11px;
+        margin-left: 1.5%;
+        width: 15%;
+    }
+    li.sidenav a {
+        padding: 12px 4px;
+    }
+    li.sidenav img {
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     h1.pages {
-        font-size: 350%;
+        font-size: 175%;
     }
 
     h2.pages {
-        font-size: 250%;
+        font-size: 125%;
     }
     p{
-        font-size: 175%;
+        font-size: 87.5%;
     }
+}
+@media screen and (max-width: 415px) {
+    ul.sidenav {
+        font-size: 7.5px;
+        margin-left: 1.5%;
+        width: 15%;
+    }
+
 }

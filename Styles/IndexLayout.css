@@ -99,27 +99,37 @@ hr.indexBottom {
     width: 100%;
 }
 /*********************** Mobile Layout ***************************/
+
+@media screen and (max-width: 415px) {
+    h1.index {
+        font-size: 100%;
+    }
+
+    h2.index {
+        font-size: 75%;
+    }
+}
 @media screen and (max-width: 1000px) {
     .grid-container{
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 1.5%;
+        margin-left: 1.5%;
     }
     hr.indexTop{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     hr.indexBottom{
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     h3.index {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         line-height: 2;
-        font-size: 200%;
+        font-size: 100%;
     }
     h2{
-        font-size: 225%;
+        font-size: 125%;
         margin-left: 1%;
         margin-right: 1%;
     }
