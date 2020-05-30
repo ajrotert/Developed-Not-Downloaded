@@ -1,5 +1,4 @@
 ﻿$(function () {
-
     if (document.getElementById("iOS-Table") != null) {
         $("#iOS-Table").load("Dynamic/HTML/iOSPlaceholder.html");
     }

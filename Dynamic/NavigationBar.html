@@ -151,6 +151,7 @@
                 <a href="Other.html">Other Projects</a>
             </div>
         </li>
+        <li class="navitem" id="App-Page"><a href="app">Counter</a></li>
         <li class="navitem" id="Business-Page"><a href="BusinessPlan.html">Business Plan</a></li>
         <li class="navitem" id="About-Page"><a href="AboutMe.html">About Me</a></li>
         <li class="navitem" id="Contact-Page"><a href="ContactUs.html">Contact Us</a></li>
@@ -195,6 +196,9 @@
         document.getElementById("iOS-Page").classList.add("active");
     else if ((text + "Augmented Reality Visualizer App") == title)
         document.getElementById("iOS-Page").classList.add("active");
+    else if ((text + "iOS App Download Counter") == title)
+        document.getElementById("App-Page").classList.add("active");
+
 
     function toggleFunction() {
         var x = document.getElementById("navStart");
