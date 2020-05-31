@@ -11560,8 +11560,8 @@
     <None Include="functions\node_modules\%40grpc\proto-loader\build\src\index.js" />
     <None Include="functions\node_modules\%40grpc\proto-loader\build\src\index.d.ts" />
     <None Include="functions\views\apps.hbs" />
-    <None Include="functions\Apple_Key\AuthKey_MNZGW4JXDK.p8" />
     <None Include="functions\Apple_Key\AuthKey_9U24FGT7V4.p8" />
+    <None Include="functions\Apple_Key\AuthKey_MNZGW4JXDK.p8" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
