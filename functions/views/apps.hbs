@@ -14,6 +14,8 @@
     <link rel="shortcut icon" href="Images/weblogo180.png" />
     <link rel="stylesheet" href="Styles/normalize.css" />
     <link rel="stylesheet" href="Styles/defaults.css" />
+    <link rel="stylesheet" href="Styles/appTemplateLayout.css" />
+
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
@@ -25,10 +27,12 @@
     <nav id="nav-placeholder"></nav>
 
     <hr class="nav" />
-    <h1>Number of iOS app downloads in 2019: </h1>
+    <h1>Number of iOS apps download on <object class="color">{{{_year}}}-{{{_month}}}-{{{_day}}}</object>: </h1>
+    <br /><br /><br /><br />
+
     <center><pre>{{{text}}}</pre></center>
 
-    <br /><br />
+    <br /><br /><br /><br /><br />
     <p>Results are gathered using Apple's App Store Connect REST API. The HTTPS GET request is stored as a FireBase Cloud Funtion. The resulting data is then loaded into a template webpage.</p>
 
     <br /><br />
