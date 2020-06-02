@@ -39,10 +39,6 @@
     <None Include="Images\DevelopedNotDownloaded.png" />
     <None Include="Images\DevLogo.ico" />
     <None Include="Images\Future.png" />
-    <None Include="Images\HS\Four.png" />
-    <None Include="Images\HS\One.png" />
-    <None Include="Images\HS\Three.png" />
-    <None Include="Images\HS\Two.png" />
     <None Include="Images\LaptopFW.png" />
     <None Include="Images\LS\One.png" />
     <None Include="Images\LS\Three.png" />
@@ -11563,6 +11559,11 @@
     <None Include="functions\Apple_Key\AuthKey_9U24FGT7V4.p8" />
     <None Include="functions\Apple_Key\AuthKey_MNZGW4JXDK.p8" />
     <None Include="Styles\appTemplateLayout.css" />
+    <None Include="Images\HS\One.gif" />
+    <None Include="Images\HS\Two.png" />
+    <None Include="Images\HS\Three.png" />
+    <None Include="Images\HS\Four.png" />
+    <None Include="Images\HS\Five.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
