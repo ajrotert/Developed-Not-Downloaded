@@ -60,6 +60,20 @@ a.projectsLink:active {
     text-decoration: underline;
     color: #0066ff;
 }
+
+#pt1-education-carrot, #pt2-skills-carrot, #pt3-course-carrot, #pt4-projects-carrot, #pt5-involvement-carrot, #pt6-work-carrot {
+    font-size: 75%;
+    font-weight: 900;
+    color: #022E6D;
+    cursor: default;
+}
+.resume-break {
+    border: 0.5px solid #022E6D;
+}
+.resume-heading {
+    color: #022E6D;
+}
+
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .grid-container {
