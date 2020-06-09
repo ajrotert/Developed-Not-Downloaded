@@ -10,7 +10,7 @@ pre {
 
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
-    html {
+    main {
         margin-left: 2%;
         margin-right: 2%;
     }

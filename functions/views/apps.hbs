@@ -25,17 +25,22 @@
     </div>
 
     <nav id="nav-placeholder"></nav>
-
     <hr class="nav" />
-    <h1>Number of iOS apps download on <object class="color">{{{_year}}}-{{{_month}}}-{{{_day}}}</object>: </h1>
-    <br /><br /><br /><br />
 
-    <center><pre>{{{text}}}</pre></center>
+    <main>
+        <h1>Number of iOS apps download on <object class="color">{{{_year}}}-{{{_month}}}-{{{_day}}}</object>: </h1>
+        <br /><br /><br /><br />
 
-    <br /><br /><br /><br /><br />
-    <p>Results are gathered using Apple's App Store Connect REST API. The HTTPS GET request is stored as a FireBase Cloud Funtion. The resulting data is then loaded into a template webpage.</p>
+        <center><pre>{{{text}}}</pre></center>
 
-    <br /><br />
+        <br /><br /><br /><br /><br />
+        <p>
+            Results are gathered using Apple's App Store Connect REST API. The HTTPS GET request is stored and executed as a Google FireBase Cloud Function. The resulting data is then loaded, using Express.JS, into a template webpage.
+            (Results for a given day are available after thirty hours from the start of that day.)
+        </p>
+
+        <br /><br />
+    </main>
     <footer>
         <div class="right_position">
             <img src="Images/ARLogo.png" height="150" alt="Andrew Rotert Development Logo" />
