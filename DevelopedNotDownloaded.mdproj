@@ -11566,6 +11566,7 @@
     <None Include="Images\HS\Five.png" />
     <None Include="Images\Bio copy.png" />
     <None Include="Dynamic\HideShowContent.js" />
+    <None Include="Images\AppLogos\ProjectsBanner.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
