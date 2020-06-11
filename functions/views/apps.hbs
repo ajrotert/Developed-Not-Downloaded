@@ -34,6 +34,7 @@
         <center><pre>{{{text}}}</pre></center>
 
         <br /><br /><br /><br /><br />
+        <h3>Report generated from: <object class="color">{{{generatedFrom}}}</object></h3>
         <p>
             Results are gathered using Apple's App Store Connect REST API. The HTTPS GET request is stored and executed as a Google FireBase Cloud Function. The resulting data is then loaded, using Express.JS, into a template webpage. Once a report is generated the results are put into a cloud firestore database. If that same report is requested again, the data is reloaded from the database.
             (Results for a given day are available after thirty six hours from the start of that day.)
