@@ -35,8 +35,8 @@
 
         <br /><br /><br /><br /><br />
         <p>
-            Results are gathered using Apple's App Store Connect REST API. The HTTPS GET request is stored and executed as a Google FireBase Cloud Function. The resulting data is then loaded, using Express.JS, into a template webpage.
-            (Results for a given day are available after thirty hours from the start of that day.)
+            Results are gathered using Apple's App Store Connect REST API. The HTTPS GET request is stored and executed as a Google FireBase Cloud Function. The resulting data is then loaded, using Express.JS, into a template webpage. Once a report is generated the results are put into a cloud firestore database. If that same report is requested again, the data is reloaded from the database.
+            (Results for a given day are available after thirty six hours from the start of that day.)
         </p>
 
         <br /><br />
