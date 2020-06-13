@@ -45,6 +45,26 @@
     <hr class="projects" />
 
     <br />
+    <!-- advanced-tag augmented-tag database-tag hosted-tag firebase-tag functions-tag machine-tag ood-tag published-tag stack-tag team-tag thread-tag -->
+    <div class="filer-selector">
+        <label id="tag-label" for="tag-selector">Filter projects by tags: </label>
+        <select id="tag-selector" name="tag-selector" onchange="tagSelectorFunction()">
+            <option value="All">All</option>
+            <option value="augmented-tag">Augmented Reality</option>
+            <option value="advanced-tag">Advanced Algorithms</option>
+            <option value="database-tag">Database Integration</option>
+            <option value="hosted-tag">Hosted</option>
+            <option value="firebase-tag">Google Firebase</option>
+            <option value="functions-tag">Cloud Functions</option>
+            <option value="machine-tag">Machine Learning</option>
+            <option value="ood-tag">Object Oriented Design</option>
+            <option value="published-tag">Published</option>
+            <option value="stack-tag">Stack</option>
+            <option value="team-tag">Team Collaboration</option>
+            <option value="thread-tag">Multitreading</option>
+        </select>
+    </div>
+    <br />
 
     <div class="smaller">
         <center>
@@ -80,6 +100,8 @@
     <script src="Dynamic/loadprojects.js"></script>
 
     <script src="Dynamic/Scripts/PageLoader.js"></script>
+
+    <script src="Dynamic/FilterResults.js"></script>
 
 </body>
 </html>

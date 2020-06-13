@@ -11218,6 +11218,7 @@
     <None Include="Dynamic\HideShowContent.js" />
     <None Include="Images\AppLogos\ProjectsBanner.png" />
     <None Include="functions\serviceAccountKey.json" />
+    <None Include="Dynamic\FilterResults.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />

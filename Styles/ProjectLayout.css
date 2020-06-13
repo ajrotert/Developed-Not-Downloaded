@@ -2,6 +2,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: max-content;
     grid-row-gap: 1em;
     grid-column-gap: 2em;
 }
@@ -80,6 +81,24 @@ a.region:hover {
 a.region:active {
     text-decoration: none;
 }
+.tag {
+    background-color: #022E6D;
+    color: white;
+    padding: 1px 2px;
+    border-radius: 5%;
+}
+.filer-selector{
+    position: relative;
+    text-align: center;
+}
+#tag-label{
+    font-size: 150%;
+}
+#tag-selector{
+    position: relative;
+    font-size: 150%;
+    background-color: transparent;
+}
 
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
@@ -103,5 +122,12 @@ a.region:active {
     .smaller {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    #tag-label {
+        font-size: 85%;
+    }
+
+    #tag-selector {
+        font-size: 85%;
     }
 }
