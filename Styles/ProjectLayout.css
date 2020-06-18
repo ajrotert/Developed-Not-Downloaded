@@ -100,6 +100,14 @@ a.region:active {
     background-color: transparent;
 }
 
+.title-tag {
+    font-size: 150%;
+    color: #022E6D;
+}
+.increase-font {
+    font-size: 115%;
+}
+
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .grid-container {
