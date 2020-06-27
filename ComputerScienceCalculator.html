@@ -24,8 +24,6 @@ body {
     <link rel="stylesheet" href="Styles/defaults.css" />
     <link rel="stylesheet" href="Styles/PreviewLayout.css" />
 
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
 </head>
 <body>
     <div>
@@ -38,7 +36,7 @@ body {
     <hr class="nav" />
     <nav>
         <ul class="sidenav effect">
-            <li class="sidenav"><img src="Images/AppLogos/Calc.png" alt="Logo"/></li>
+            <li class="sidenav"><img src="Images/AppLogos/Calc.png" alt="Logo" /></li>
             <li class="sidenav"><a href="#screen_page_link">Screenshots</a></li>
             <li class="sidenav"><a href="#about_page_link">About</a></li>
             <li class="sidenav"><a href="#privacy_page_link">Privacy Policy</a></li>
@@ -209,13 +207,15 @@ body {
         <div class="right_position">
             <img src="Images/ARLogo.png" height="150" alt="Andrew Rotert Development Logo" />
             <br />
-            <p class="bottom_position">&copy Copyright 2019-2020 Andrew Rotert</p>
+            <p class="bottom_position">&copy; Copyright 2019-2020 Andrew Rotert</p>
         </div>
 
     </footer>
-    <script src="Dynamic/NavigationBarJS.js"></script>
 
-    <script src="Dynamic/NavBar.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script type="text/babel" src="Dynamic/reactnav.js"></script>
 
 </body>
 </html>
