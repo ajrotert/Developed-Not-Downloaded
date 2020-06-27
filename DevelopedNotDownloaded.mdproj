@@ -74,10 +74,6 @@
     <None Include="Images\weblogo152.png" />
     <None Include="Images\weblogo76.png" />
     <None Include="Images\DNDBKGTemplate2.png" />
-    <None Include="Dynamic\HTML\iOSPlaceholder.html" />
-    <None Include="Dynamic\loadprojects.js" />
-    <None Include="Dynamic\HTML\AndroidPlaceholder.html" />
-    <None Include="Dynamic\HTML\OtherPlaceholder.html" />
     <None Include="Styles\IndexLayout.css" />
     <None Include="Styles\PreviewLayout.css" />
     <None Include="Styles\ProjectLayout.css" />
@@ -11219,6 +11215,8 @@
     <None Include="Images\Projects\productbacklogdev.png" />
     <None Include="Dynamic\reactnav.js" />
     <None Include="Dynamic\react_project_android.js" />
+    <None Include="Dynamic\react_project_other.js" />
+    <None Include="Dynamic\react_project_ios.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -11226,7 +11224,6 @@
     <Folder Include="Styles\" />
     <Folder Include="Images\Projects\" />
     <Folder Include="Dynamic\" />
-    <Folder Include="Dynamic\HTML\" />
     <Folder Include="Dynamic\Scripts\" />
     <Folder Include="Images\AR\" />
     <Folder Include="functions\views\" />
