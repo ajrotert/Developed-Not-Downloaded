@@ -40,7 +40,11 @@ img.resizing {
 h3.margin {
     margin-bottom: 2em;
 }
-
+.top-name {
+    text-align: right;
+    color: #0066FF;
+    font-size: 115%;
+}
 /********************************** Side Navagation Items **********************************/
 hr.nav {
     display: block;
@@ -50,7 +54,7 @@ hr.nav {
     margin-right: auto;
     border-style: inset;
     border-width: 5px;
-    border: solid #022E6D;    
+    border: solid #022E6D;
 }
 
 ul.sidenav {
@@ -119,6 +123,9 @@ ul.effect {
     }
     p{
         font-size: 87.5%;
+    }
+    .top-name {
+        text-align: center;
     }
 }
 @media screen and (max-width: 415px) {
