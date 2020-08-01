@@ -13,3 +13,9 @@ I needed a website to provide support to my published iOS applications.
 
 # Tech
 Built using HTML, CSS, Javascript.
+
+
+# Preview
+Developed Not Downloaded                 |  Web App
+:-------------------------:|:-------------------------:
+![alt text 1](https://github.com/ajrotert/Developed-Not-Downloaded/blob/master/DevelopedNotDownloaded.gif?raw=true)  |   Website
