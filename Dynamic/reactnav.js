@@ -1,4 +1,4 @@
-﻿
+
 /* HOW TO USE
  * THREE STEPS
 
@@ -65,6 +65,7 @@ class ArNav extends React.Component {
                                 <a href="SpeedometerPlusMap.html">Speedometer Plus Map</a>
                                 <a href="HolidayClicker.html">Holiday Clicker</a>
                                 <a href="AugmentedRealityVisualizer.html">AR Visualizer</a>
+                                <a href="PhotoboxWidget.html">Photobox Widget</a>
                             </div>
                         </li>
                         <li className="dropdown navitem" id="Android-Page">
@@ -134,6 +135,8 @@ else if ((text + "Simple Speedometer and Map App") == title)
 else if ((text + "Trap Shooting Scorecard App") == title)
     document.getElementById("iOS-Page").classList.add("active");
 else if ((text + "Augmented Reality Visualizer App") == title)
+    document.getElementById("iOS-Page").classList.add("active");
+else if ((text + "Photobox Widget") == title)
     document.getElementById("iOS-Page").classList.add("active");
 else if ((text + "iOS App Download Counter") == title)
     document.getElementById("App-Page").classList.add("active");

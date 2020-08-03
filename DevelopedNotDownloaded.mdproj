@@ -11217,6 +11217,7 @@
     <None Include="Dynamic\react_project_android.js" />
     <None Include="Dynamic\react_project_other.js" />
     <None Include="Dynamic\react_project_ios.js" />
+    <None Include="PhotoboxWidget.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
