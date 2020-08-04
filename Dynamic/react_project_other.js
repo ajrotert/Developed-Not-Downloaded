@@ -92,7 +92,7 @@
                     <div className="inner_region">
                         <center>
                             <img className="resizing" src="Images/Projects/Website2.png" alt="Website" />
-                            <h2><i>Developed Not Download</i></h2>
+                            <h2><i>Developed Not Downloaded</i></h2>
                             <p>See the code: <a href="https://github.com/ajrotert/Developed-Not-Downloaded">View Repository</a></p>
                             <p>Tags: <object className="tag">Hosted</object> <object className="tag">Database Integration</object> <object className="tag">Google Firebase</object> <object className="tag">Cloud Functions</object></p>
                             <p>Language Used: HTML5, CSS3, JavaScript</p>
@@ -133,7 +133,7 @@
                     <div className="inner_region">
                         <center>
                             <img className="resizing" src="Images/Projects/ClientHost.png" alt="Website" />
-                            <h2><i>Client / Host Communication</i></h2>
+                            <h2><i>Client Host Communication</i></h2>
                             <p>See the code: <a href="https://github.com/ajrotert/BasicClientServerConnections">View Repository</a></p>
                             <p>Tags: <object className="tag">Object Oriented Design</object> <object className="tag">Multithreaded</object></p>
                             <p>Language Used: Java</p>

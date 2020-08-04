@@ -11218,6 +11218,20 @@
     <None Include="Dynamic\react_project_other.js" />
     <None Include="Dynamic\react_project_ios.js" />
     <None Include="PhotoboxWidget.html" />
+    <None Include="Images\ProjectDemos\PutterFitter.gif" />
+    <None Include="Images\ProjectDemos\TrapShootingScorecard.gif" />
+    <None Include="Images\ProjectDemos\AugmentedRealityVisualizer.gif" />
+    <None Include="Images\ProjectDemos\DevelopedNotDownloaded.gif" />
+    <None Include="Images\ProjectDemos\ProductBacklogDeveloper.gif" />
+    <None Include="Images\ProjectDemos\HolidayClicker.gif" />
+    <None Include="Images\ProjectDemos\OnTheHunt.gif" />
+    <None Include="Images\ProjectDemos\ClientHostCommunication.gif" />
+    <None Include="Images\ProjectDemos\NumericDetector.gif" />
+    <None Include="Images\ProjectDemos\GripFinder.gif" />
+    <None Include="Images\ProjectDemos\Minesweeper.gif" />
+    <None Include="Images\ProjectDemos\ComputerScienceCalculator.gif" />
+    <None Include="Images\ProjectDemos\SimpleSpeedometerPlusMap.gif" />
+    <None Include="Images\ProjectDemos\LiftForceCalculator.gif" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -11229,5 +11243,6 @@
     <Folder Include="Images\AR\" />
     <Folder Include="functions\views\" />
     <Folder Include="functions\Apple_Key\" />
+    <Folder Include="Images\ProjectDemos\" />
   </ItemGroup>
 </Project>
