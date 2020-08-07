@@ -83,7 +83,13 @@ class ArNav extends React.Component {
                             </div>
                         </li>
                         <li className="navitem" id="App-Page"><a href="app">App API</a></li>
-                        <li className="navitem" id="Business-Page"><a href="BusinessPlan.html">Business Plan</a></li>
+                        <li class="dropdown navitem" id="Articles-Page">
+                            <a href="#null" className="dropbtn">My Articles</a>
+                            <div class="dropdown-content">
+                                <a href="BusinessPlan.html">Business Plan Competition</a>
+                                <a href="BuildWidgets.html">Build iOS Home Screen Widget</a>
+                            </div>
+                        </li>
                         <li className="navitem" id="About-Page"><a href="AboutMe.html">About Me</a></li>
                         <li className="navitem" id="Contact-Page"><a href="ContactUs.html">Contact Us</a></li>
                         <li className="navitem hamburgerBar" id="Drop-Down"><a href="#null" onClick={this.props.onClick}>&#9776;</a></li>
@@ -111,7 +117,9 @@ else if ((text + "Home") == title)
 else if ((text + "About The Developer") == title)
     document.getElementById("About-Page").classList.add("active");
 else if ((text + "Business Plan") == title)
-    document.getElementById("Business-Page").classList.add("active");
+    document.getElementById("Articles-Page").classList.add("active");
+else if ((text + "Build Widgets") == title)
+    document.getElementById("Articles-Page").classList.add("active");
 else if ((text + "Projects") == title)
     document.getElementById("Projects-Page").classList.add("active");
 else if ((text + "iOS Projects") == title)

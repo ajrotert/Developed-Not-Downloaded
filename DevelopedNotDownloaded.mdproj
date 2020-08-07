@@ -11232,6 +11232,7 @@
     <None Include="Images\ProjectDemos\ComputerScienceCalculator.gif" />
     <None Include="Images\ProjectDemos\SimpleSpeedometerPlusMap.gif" />
     <None Include="Images\ProjectDemos\LiftForceCalculator.gif" />
+    <None Include="BuildWidgets.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
