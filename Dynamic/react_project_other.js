@@ -72,7 +72,7 @@
                     <div className="inner_region">
                         <center>
                             <img className="resizing" src="Images/Projects/Golf2.png" alt="Mini-Golf" />
-                            <h2><i>Mini-Golf</i></h2>
+                            <h2><i>Mini Golf</i></h2>
                             <p>See the code: <a href="https://github.com/ajrotert/Assembely">View Repository</a></p>
                             <p>Tags: <object className="tag">Stack</object></p>
                             <p>Language Used: Assembly x86</p>

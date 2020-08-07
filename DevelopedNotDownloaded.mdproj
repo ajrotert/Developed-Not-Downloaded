@@ -11233,6 +11233,7 @@
     <None Include="Images\ProjectDemos\SimpleSpeedometerPlusMap.gif" />
     <None Include="Images\ProjectDemos\LiftForceCalculator.gif" />
     <None Include="BuildWidgets.html" />
+    <None Include="Images\ProjectDemos\MiniGolf.gif" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
