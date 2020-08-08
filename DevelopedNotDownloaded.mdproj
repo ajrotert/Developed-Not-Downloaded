@@ -11241,6 +11241,8 @@
     <None Include="Images\BuildWidgets\Parent.png" />
     <None Include="Images\BuildWidgets\ProjectSelect.png" />
     <None Include="Images\BuildWidgets\AppGroup.png" />
+    <None Include="Images\ProjectDemos\Tsharp.gif" />
+    <None Include="Images\ProjectDemos\ProgrammingCompetitions.gif" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
