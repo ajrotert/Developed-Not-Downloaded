@@ -13,7 +13,7 @@
     <meta name="author" content="Andrew Rotert">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Developed Not Downlaoded | Build Widgets</title>
+    <title>Developed Not Downlaoded | Widgets Article</title>
     <link rel="icon" type="image/x-icon" href="Images/weblogo180.png" />
     <link rel="apple-touch-icon" href="Images/weblogo180.png">
     <link rel="apple-touch-icon" sizes="76x76" href="Images/weblogo76.png">
@@ -23,8 +23,7 @@
     <link rel="shortcut icon" href="Images/weblogo180.png" />
     <link rel="stylesheet" href="Styles/normalize.css" />
     <link rel="stylesheet" href="Styles/defaults.css" />
-    <link rel="stylesheet" href="Styles/ProjectLayout.css" />
-    <link rel="stylesheet" href="Styles/ProjectViewLayout.css" />
+    <link rel="stylesheet" href="Styles/BuildWidgets.css" />
 
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
@@ -32,18 +31,198 @@
 <body>
     <div>
         <center><img src="Images/DevelopedNotDownloaded.png" class="logo" alt="Logo" /></center>
-        <p class="top-name">By Andrew Rotert</p>
+        <center><p class="top-name">By Andrew Rotert</p></center>
     </div>
 
     <hr class="nav" />
     <nav id="nav-placeholder"></nav>
     <hr class="nav" />
 
-    <center><h1 class="pages" id="title">Widgets</h1></center>
+    <center><h1 class="pages" id="title">Widgets Article</h1></center>
+    <center><h3 class="pages">(Published on Medium: <a href="https://medium.com/better-programming/how-to-develop-a-home-screen-widget-from-scratch-for-ios-14-b185972350f3?source=friends_link&sk=b8456f40e69b34e544e49a85cefc1c82">here</a>)</h3></center>
 
-    <a href="https://medium.com/better-programming/how-to-develop-a-home-screen-widget-from-scratch-for-ios-14-b185972350f3?source=friends_link&sk=b8456f40e69b34e544e49a85cefc1c82">
-        https://medium.com/better-programming/how-to-develop-a-home-screen-widget-from-scratch-for-ios-14-b185972350f3?source=friends_link&sk=b8456f40e69b34e544e49a85cefc1c82
-    </a>
+    <div class="article">
+        <center><h1 class="pages" id="title">How to Develop a Home Screen Widget From Scratch for iOS 14+</h1></center>
+        <center><h2>Get started building widgets today</h2></center>
+        <center> <img src="Images/BuildWidgets/Photobox Widget.png" /> </center>
+        <h1>Required Technologies</h1>
+        <ul>
+            <li>Xcode 12</li>
+            <li>Basic knowledge of Swift</li>
+            <li>Apple Developer account (optional)</li>
+            <li>iOS 14 iPhone (optional)</li>
+        </ul>
+        <h1>Overview</h1>
+        <p>We are going to create an iOS 14 home screen widget. Home screen widgets require a parent application. This walkthrough won’t go into detail about building the parent application but will focus on building a widget. Widgets are an extension of the parent application. The widget and parent application run separately but will have a shared container for data.</p>
+        <p>Our parent app will allow the user to select an image and add a text overlay. The widget we are building will display this image and the text overlay. Our widget will support three sizes: small, medium, and large.</p>
+        <p>Unlike the parent app, widgets are not continuously running. We will configure ours to update on ten-minute intervals.</p>
+        <h1>Getting Started</h1>
+        <p>Create a new Xcode project:</p>
+        <ul>
+            <li>Select “App.”</li>
+            <li>Add a name for your project.</li>
+            <li>Create.</li>
+        </ul>
+        <center>
+            <figure>
+                <img src="Images/BuildWidgets/options.png" />
+                <figcaption>Xcode project options</figcaption>
+            </figure>
+        </center>
+        <p>Now we will add our widget:</p>
+        <ul>
+            <li>Select the very top Xcode project file.</li>
+            <li>Editor → Add Target (Requires Xcode 12).</li>
+            <li>Select “Widget Extension.”</li>
+            <li>Add a name for your widget.</li>
+            <li>Verify that “Include Configuration Intent” is selected.</li>
+            <li>If prompted, select “Activate.”</li>
+        </ul>
+        <center>
+            <figure>
+                <img src="Images/BuildWidgets/Target.png" />
+                <figcaption>Xcode project targets</figcaption>
+            </figure>
+        </center>
+        <p>Now we are ready to get started.</p>
+        <h1>Building the Parent App</h1>
+        <p>The focus of this walkthrough is on the widget. To build the parent app for the widget, I added labels, buttons, segmented controls, text fields, and image views to the main storyboard. The final product looks similar to this:</p>
+        <center>
+            <figure>
+                <img src="Images/BuildWidgets/Parent.png" />
+                <figcaption>Main.Storyboard User Interface Editor</figcaption>
+            </figure>
+        </center>
+        <p>Now that we have a parent app, we can get started on developing the widget.</p>
+        <h1>Building the Widget</h1>
+        <p>To get started, navigate to the [ProductName].swift file for your widget.</p>
+        <p>You should have template code similar to this:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/a0560428cc03fe549c67d3e12fda768c.js"></script>
+            </figure>
+        </center>
+        <p>We will start in the main section. Our widget is currently set up as an IntentConfiguration. This allows the widget to have custom properties for each user. The four parameters for this configuration are:</p>
+        <ul>
+            <li>kind — This specifies our extension as a widget.</li>
+            <li>intent — This specifies our extension’s properties.</li>
+            <li>provider — This specifies how our widget will update (we will look further into this later).</li>
+            <li>placeholder — This specifies how our widget looks before it is configured by the user (more on this later).</li>
+        </ul>
+        <p>The .configurationDisplayName and .description can be updated to reflect your widget.</p>
+        <p>The widget is developed using SwiftUI. The view for the widget is defined under the entry. To start developing the widget, go to the EntryView struct.</p>
+        <h1>Widget Family Sizes (Optional)</h1>
+        <p>The first things we want to add are the Environment and ViewBuilder definitions. This will allow us to build widgets responsive to the different widget family sizes. To do this, add the following code:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/6491d0196cd674f7062b030f7b26183a.js"></script>
+            </figure>
+        </center>
+        <p>We can now get started on developing separate views for each widget size. For this project, we will use VStack (vertical stack) to build the widget view.</p>
+        <h1>Building the Widget View</h1>
+        <p>Since our widget view is the same for all the sizes, I removed the switch cases and used just one VStack. We will add an Image to this stack like so:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/1b70cb1b9fd0c2d272a8170aeb43cfc4.js"></script>
+                <figcaption>Note: The image data will be null.</figcaption>
+            </figure>
+        </center>
+        <p>In this example, I provide a template for adding image data to the view. Currently, no data is shared, so we are still working with null (nil) data and will see a runtime error when we run the widget. Our next challenge will be sharing data from the parent app to the widget.</p>
+        <h1>Sharing Data</h1>
+        <p>In the parent app, the user selects an image using the UIImagePicker. We need to be able to save this image in a way that allows the widget to also have access. The easiest way to achieve this is through user defaults.</p>
+        <p>To allow the parent app and the widget to have access to the same user defaults, we need to create an app group:</p>
+        <ul>
+            <li>Click the “Signing & Capabilities” tab.</li>
+            <li>Click on “+Capability” (top left).</li>
+            <li>Click “App Groups.”</li>
+            <li>Click the “+” to add a new group.</li>
+            <li>Add the group with the group.com.company.app naming convention.</li>
+        </ul>
+        <center>
+            <figure>
+                <img src="Images/BuildWidgets/AppGroup.png" />
+                <figcaption>Setting up app group</figcaption>
+            </figure>
+        </center>
+        <p>Note: This will have to be done for the app and the widget.</p>
+        <center><img src="Images/BuildWidgets/AppGroup.png" /></center>
+        <p>We can now save and access user defaults through this app group.</p>
+        <p>Saving the image:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/24b290b3b01d0ceaa43bf63f4e5e791e.js"></script>
+                <figcaption>Saving image to shared user defaults (parent app).</figcaption>
+            </figure>
+        </center>
+        <p>Accessing the image:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/7ac0b70715284e04e86117e1315f699f.js"></script>
+                <figcaption>Accessing image from shared user defaults (widget).</figcaption>
+            </figure>
+        </center>
+        <p>User defaults work in key-value pairs. We convert the image to a generic data type, then back to an image to access it. Our widget can now access data shared from its parent app. Next, we will look at adding a text overlay to our widget.</p>
+        <h1>Adding a Text Overlay</h1>
+        <p>In the parent app, the user can specify text to overlay the image. This text is stored as a string in the user defaults. To add this text as an overlay to the widget view, we need to modify our widgetData struct to include a text overlay string. Our getData() function will also need to access the text data from the user defaults.</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/227400f18c201f429d4ff9d6c02b406d.js"></script>
+            </figure>
+        </center>
+        <p>We create a new struct to build the text overlay. The overlay is added with the alignment setting the text in the lower-left corner of the widget. Now that our widget is complete, we can add a placeholder.</p>
+        <h1>Adding a Widget Placeholder</h1>
+        <p>The placeholder view will contain generic data to be displayed before the user-configured widget is loaded. To build the placeholder, we follow a similar process to the one above. We create our view using the VStack and add an Image view. Now we can statically set an image.</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/6937dff34d78fedceb0b7e12e62d360b.js"></script>
+            </figure>
+        </center>
+        <p>Before we look at the provider, we will look at the SimpleEntry struct.</p>
+        <h1>Updating Widget Data</h1>
+        <p>Any data that may need updating should be defined in the SimpleEntry struct. Let’s say that we want our text overlay’s position to randomly change every ten minutes. To do this, we need to define the overlay’s position in the SimpleEntrystruct:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/2e6c9e26e02b37984aefbce9058b9128.js"></script>
+            </figure>
+        </center>
+        <p>We also need to update the text overlay in the widget view to use this property:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/e3e86693935a175ae30c2c3a206fad66.js"></script>
+            </figure>
+        </center>
+        <p>Now we can now look at the provider.</p>
+        <h1>Widget Lifecycle</h1>
+        <p>The provider struct defines the widget’s lifecycle. This struct contains two parts:</p>
+        <ul>
+            <li>snapshot — The snapshot will save the widget for display in the widget gallery. It uses a new instance of SimpleEntry, so any dynamically updating content can be set.</li>
+            <li>timeline — This will control how often the widget updates. Any properties defined in SimpleEntry will be initialized here.</li>
+        </ul>
+        <p>We want to configure our widget to update its text overlay position every ten minutes. Modify the Provider to look similar to this:</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/c1d373d2c16e65e70f0b1b9340e2ad0b.js"></script>
+                <figcaption>Notice the .hour changed to .minute.</figcaption>
+            </figure>
+        </center>
+        <p>We add six new SimpleEntry structs ten minutes apart, each with a random alignment position. The Timeline takes two parameters: the entries we just generated and the policy. The policy defines when we want to build a new timeline. We will leave this as .atEnd. After all the entries are used, the Timeline will be regenerated.</p>
+        <h1>Resetting the Timeline From the Parent App</h1>
+        <p>We now have a working widget that allows a user to set an image and text overlay. The widget will now update and previews are available in the widget gallery. However, a problem exists when the user makes changes in the parent app. The widget does not know to reset its timeline to reflect these changes. To resolve this, we want to add the following line in the parent app anywhere the data is modified.</p>
+        <center>
+            <figure class="script">
+                <script src="https://gist.github.com/ajrotert/8b9428f826887f294980d9619b0e2120.js"></script>
+                <figcaption>ofKind parameter takes the name of the widget</figcaption>
+            </figure>
+        </center>
+        <p>Any changes the user makes will now be reflected immediately.</p>
+        <h1>Wrapping Up</h1>
+        <p>Congratulations, you built a home screen widget for iOS 14. The widget is now fully functional. We started by building a view for the widget, we then set up the widget to use shared data with its parent app, we set the widget to update its text overlay view, and we can now control the widget’s lifecycle.</p>
+        <h1>Where to Go From Here</h1>
+        <p>
+            Apple’s widgets give developers a lot of options to build highly customized features. Explore more complex views for your widget. Add more dynamic content to appeal to more users.
+            <br />Thanks for following along. Good luck on your development journey.
+        </p>
+    </div>
 
     <footer>
         <div class="right_position">

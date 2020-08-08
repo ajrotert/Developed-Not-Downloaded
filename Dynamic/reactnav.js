@@ -87,7 +87,7 @@ class ArNav extends React.Component {
                             <a href="#null" className="dropbtn">My Articles</a>
                             <div class="dropdown-content">
                                 <a href="BusinessPlan.html">Business Plan Competition</a>
-                                <a href="BuildWidgets.html">Build iOS Home Screen Widget</a>
+                                <a href="BuildWidgets.html">Widgets Article</a>
                             </div>
                         </li>
                         <li className="navitem" id="About-Page"><a href="AboutMe.html">About Me</a></li>
@@ -118,7 +118,7 @@ else if ((text + "About The Developer") == title)
     document.getElementById("About-Page").classList.add("active");
 else if ((text + "Business Plan") == title)
     document.getElementById("Articles-Page").classList.add("active");
-else if ((text + "Build Widgets") == title)
+else if ((text + "Widgets Article") == title)
     document.getElementById("Articles-Page").classList.add("active");
 else if ((text + "Projects") == title)
     document.getElementById("Projects-Page").classList.add("active");

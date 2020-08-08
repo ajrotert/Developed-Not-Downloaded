@@ -1,0 +1,65 @@
+﻿/********************************** Business Items **********************************/
+div.article {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+    div.article h1 {
+        color: #0066ff;
+        font-size: 225%;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+
+    div.article h2 {
+        padding-bottom: .1em;
+        padding-top: .1em;
+        font-size: 150%;
+    }
+
+    div.article p {
+        font-size: 125%;
+    }
+
+    div.article li {
+        font-size: 125%;
+    }
+
+    div.article img{
+        width: 60%;
+    }
+    .script {
+        width: 60%;
+    }
+
+/*********************** Mobile Layout ***************************/
+@media screen and (max-width: 1000px) {
+    .grid-container {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    div.article h1 {
+        color: #0066ff;
+        font-size: 137.5%;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+
+    div.article h2 {
+        padding-bottom: .1em;
+        padding-top: .1em;
+        font-size: 100%;
+    }
+
+    div.article p {
+        font-size: 87.5%;
+    }
+    div.article li{
+        font-size: 87.5%;
+    }
+
+    ul {
+        font-size: 82.5%;
+    }
+}

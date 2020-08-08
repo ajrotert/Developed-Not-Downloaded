@@ -11234,6 +11234,13 @@
     <None Include="Images\ProjectDemos\LiftForceCalculator.gif" />
     <None Include="BuildWidgets.html" />
     <None Include="Images\ProjectDemos\MiniGolf.gif" />
+    <None Include="Styles\BuildWidgets.css" />
+    <None Include="Images\BuildWidgets\Photobox Widget.png" />
+    <None Include="Images\BuildWidgets\options.png" />
+    <None Include="Images\BuildWidgets\Target.png" />
+    <None Include="Images\BuildWidgets\Parent.png" />
+    <None Include="Images\BuildWidgets\ProjectSelect.png" />
+    <None Include="Images\BuildWidgets\AppGroup.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -11246,5 +11253,6 @@
     <Folder Include="functions\views\" />
     <Folder Include="functions\Apple_Key\" />
     <Folder Include="Images\ProjectDemos\" />
+    <Folder Include="Images\BuildWidgets\" />
   </ItemGroup>
 </Project>
