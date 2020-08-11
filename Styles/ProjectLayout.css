@@ -108,6 +108,11 @@ a.region:active {
     font-size: 115%;
 }
 
+.bolder {
+    font-size: 150%;
+    font-weight: 900;
+    color: #022E6D;
+}
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .grid-container {
@@ -137,5 +142,9 @@ a.region:active {
 
     #tag-selector {
         font-size: 85%;
+    }
+    .bolder {
+        font-size: 85%;
+        font-weight: 400;
     }
 }

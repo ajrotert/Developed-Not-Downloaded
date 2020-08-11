@@ -6,12 +6,18 @@
     margin-right: 10%;
 }
 .region h2{
-    font-size: 275%;
+    font-size: 175%;
+}
+.margin-top{
+    padding-top: 15%;
 }
 .region p{
-    font-size: 200%;
+    font-size: 125%;
 }
-
+.project-group{
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+}
 /*********************** Mobile Layout ***************************/
 @media screen and (max-width: 1000px) {
     .region {
@@ -30,5 +36,9 @@
 
     .top-margin {
         padding-top: 8em;
+    }
+    .project-group {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
 }
