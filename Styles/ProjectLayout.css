@@ -36,12 +36,12 @@ hr.projects {
     margin-left: 17.5%;
     margin-right: 17.5%;
 }
-.top-margin {
-}
-
 
 .block_region {
     position: relative;
+    box-shadow: 0px 0px 100px 10px rgba(0, 0, 0, .5);
+    margin: .1em;
+    margin-bottom: .5em;
 }
 
 .block_region .overlay_region {
@@ -50,6 +50,9 @@ hr.projects {
     top: 0;
     bottom: 0;
     right: 0;
+}
+.inner_region{
+    margin: 0.5em;
 }
 
 .block_region .inner_region {

@@ -117,7 +117,7 @@
                         </center>
                     </div>
                 </div>
-                <div className="block_region ood-tag database-tag thread-tag">
+                <div className="block_region ood-tag database-tag thread-tag top3-tag">
                     <a className="overlay_region"></a>
                     <div className="inner_region">
                         <center>
@@ -139,7 +139,7 @@
                         </center>
                     </div>
                 </div>
-                <div className="block_region published-tag augmented-tag">
+                <div className="block_region published-tag augmented-tag top3-tag">
                     <a className="overlay_region"></a>
                     <div className="inner_region">
                         <center>

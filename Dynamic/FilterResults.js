@@ -71,6 +71,11 @@ function displayTags(displayValue){
     for (var a = 0; a < thread.length; a++) {
         thread[a].style.display = displayValue;
     }
+
+    var top = document.getElementsByClassName("top3-tag");
+    for (var a = 0; a < top.length; a++) {
+        top[a].style.display = displayValue;
+    }
 };
 function showTag(tagName) {
     var tag = document.getElementsByClassName(tagName);

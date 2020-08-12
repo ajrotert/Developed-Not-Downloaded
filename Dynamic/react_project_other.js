@@ -128,7 +128,7 @@
                         </center>
                     </div>
                 </div>
-                <div className="block_region ood-tag thread-tag">
+                <div className="block_region ood-tag thread-tag top3-tag">
                     <a className="overlay_region"></a>
                     <div className="inner_region">
                         <center>
