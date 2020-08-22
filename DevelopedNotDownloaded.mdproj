@@ -11243,6 +11243,7 @@
     <None Include="Images\BuildWidgets\AppGroup.png" />
     <None Include="Images\ProjectDemos\Tsharp.gif" />
     <None Include="Images\ProjectDemos\ProgrammingCompetitions.gif" />
+    <None Include="Documents\AndrewRotertResume2020.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
