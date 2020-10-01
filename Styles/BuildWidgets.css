@@ -26,8 +26,16 @@ div.article {
     }
 
     div.article img{
-        width: 80%;
+        width: 40%;
     }
+
+    div.article figure{
+        margin: 10%;
+    }
+    div.article figcaption{
+        font-size: 200%;
+    }
+
     .script {
         width: 80%;
     }

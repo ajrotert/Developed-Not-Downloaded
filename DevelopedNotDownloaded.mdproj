@@ -11244,6 +11244,12 @@
     <None Include="Images\ProjectDemos\Tsharp.gif" />
     <None Include="Images\ProjectDemos\ProgrammingCompetitions.gif" />
     <None Include="Documents\AndrewRotertResume2020.pdf" />
+    <None Include="Images\PWidget\NewOwner.png" />
+    <None Include="Images\PWidget\TotalDownloads.png" />
+    <None Include="Images\PWidget\DayHigh.png" />
+    <None Include="Images\PWidget\Utilities.png" />
+    <None Include="Images\PWidget\TopCharts.png" />
+    <None Include="Images\PWidget\Medium.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
@@ -11257,5 +11263,6 @@
     <Folder Include="functions\Apple_Key\" />
     <Folder Include="Images\ProjectDemos\" />
     <Folder Include="Images\BuildWidgets\" />
+    <Folder Include="Images\PWidget\" />
   </ItemGroup>
 </Project>
