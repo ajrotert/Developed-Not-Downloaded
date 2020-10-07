@@ -11250,6 +11250,7 @@
     <None Include="Images\PWidget\Utilities.png" />
     <None Include="Images\PWidget\TopCharts.png" />
     <None Include="Images\PWidget\Medium.png" />
+    <None Include="Images\Projects\widget.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />

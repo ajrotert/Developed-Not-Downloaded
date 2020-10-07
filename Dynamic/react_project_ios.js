@@ -161,6 +161,28 @@
                         </center>
                     </div>
                 </div>
+                <div className="block_region published-tag">
+                    <a className="overlay_region"></a>
+                    <div className="inner_region">
+                        <center>
+                            <img className="resizing" src="Images/Projects/widget.png" alt="Widget" />
+                            <h2><i>Photobox Widget</i></h2>
+                            <p>Published: <a href="PhotoboxWidget.html">Support Page</a></p>
+                            <p>View at the App Store: <a href="https://apps.apple.com/us/app/photobox-widget/id1522087125">Visit Now</a></p>
+                            <p>See the code: <a href="https://github.com/ajrotert/iOSWidget">View Repository</a></p>
+                            <p>Tags:  <object className="tag">Published</object> </p>
+                            <p>Language Used: Swift</p>
+                            <p>About:</p>
+                            <p className="just">
+                                Photobox widget was one of the first widgets to be published under iOS 14. Users
+                                can select multiple photos from their phone, and add a widget to the home screen that randomly selects
+                                one of the photos. 
+                            </p>
+
+                            <hr className="table" />
+                        </center>
+                    </div>
+                </div>
             </div>
         );
     }
