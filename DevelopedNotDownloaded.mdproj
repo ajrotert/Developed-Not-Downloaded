@@ -11251,6 +11251,7 @@
     <None Include="Images\PWidget\TopCharts.png" />
     <None Include="Images\PWidget\Medium.png" />
     <None Include="Images\Projects\widget.png" />
+    <None Include="Images\ProjectDemos\PhotoboxWidget.gif" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documents\" />
